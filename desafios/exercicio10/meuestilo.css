@@ -1,0 +1,104 @@
+@charset "UTF-8";
+
+*{
+  margin: 0%;
+  padding: 0%;
+}
+
+header {
+    background-image: linear-gradient(#3CD781, #1A5C38);
+}
+
+
+header > h1, p {
+    color: white;
+    text-align: center;
+    padding-top: 23px;
+    padding-bottom: 18px;
+}
+
+nav > a{
+    text-decoration: none;
+    color: #ACC4B6;;
+    padding-right: 15px;
+    padding-left: 10px;
+    padding-top: 15px;
+    
+}    
+
+main {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(219, 219, 120, 0.788);
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+.historia {
+    background-color: white;
+    margin: 5%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+.historia > p {
+    color: black;
+}
+
+.novomascote {
+    background-color: white;
+    margin: 5%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+.novomascote > p {
+    color: black;
+}
+
+.video {
+    margin: 5%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    border: solid 30px green;
+}
+
+
+
+.aprendermais {
+    background-color: rgb(132, 243, 132);
+    border: solid 15px white;
+    margin: 5%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+.aprendermais > h4 {
+    color: white;
+    background-color: #1A5C38;
+    padding-left: 7px;
+}
+
+.aprendermais > p {
+    color: black;
+    padding-left: 6px;
+}
+
+.listagemmain {
+    display: flex;
+    flex-direction: row;
+}
+
+.listagem1 {
+    padding-left: 45px;
+    padding-right: 185px;
+}
+
+.footer {
+    background-color: #1A5C38;
+}
+
+img {
+    max-width: 100%;
+
+}
